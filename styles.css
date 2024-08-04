@@ -75,8 +75,8 @@ a {
 /* Mobile Styles */
 @media (max-width: 768px) {
   .logo {
-    width: 300px;
-    margin-top: 15%;
+    width: 200px;
+    margin-top: 20%;
   }
   .text {
     width: 90%;
