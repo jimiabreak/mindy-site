@@ -31,7 +31,7 @@ body {
 
 .logo {
   margin: 4%;
-  width: 300px;
+  width: 400px;
 }
 
 .business {
@@ -39,7 +39,7 @@ body {
 }
 
 .text {
-  width: 20%;
+  width: 300px;
   position: absolute;
   bottom: 1%;
   left: 2%;
@@ -75,11 +75,12 @@ a {
 /* Mobile Styles */
 @media (max-width: 768px) {
   .logo {
-    width: 200px;
-    margin-top: 20%;
+    width: 300px;
+    margin-top: 15%;
   }
   .text {
     width: 90%;
     padding: 1em;
+    bottom: 6%;
   }
 }
