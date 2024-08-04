@@ -76,10 +76,11 @@ a {
 @media (max-width: 768px) {
   .logo {
     width: 200px;
-    margin-top: 20%;
+    margin-top: 15%;
   }
   .text {
     width: 90%;
     padding: 1em;
+    bottom: 6%;
   }
 }
