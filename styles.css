@@ -20,11 +20,7 @@ body {
 .container {
   width: 100vw;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
+  display: block;
   position: relative;
   overflow: hidden;
 }
@@ -34,9 +30,8 @@ body {
 }
 
 .logo {
-  width: 50%;
-  height: auto;
-  margin-bottom: 4vh;
+  margin: 4%;
+  width: 300px;
 }
 
 .business {
@@ -44,9 +39,10 @@ body {
 }
 
 .text {
-  width: 60%;
-  margin-bottom: auto;
-  margin-top: auto;
+  width: 20%;
+  position: absolute;
+  bottom: 1%;
+  left: 2%;
   font-size: 0.875em;
   line-height: 120%;
   text-align: left;
@@ -73,5 +69,17 @@ p {
 }
 
 a {
-  color: #000000;
+  color: #1c1b1a;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .logo {
+    width: 200px;
+    margin-top: 20%;
+  }
+  .text {
+    width: 90%;
+    padding: 1em;
+  }
 }
